@@ -7,5 +7,5 @@ jobs:
     steps:
     - run: |
        echo "hai from job1"
-       echo "secret is {{ secrets.ONE }}"
+       echo "secret is ${{ secrets.ONE }}"
        echo "added something"
