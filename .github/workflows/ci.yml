@@ -6,3 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: echo " hai from job1"
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo " hai from job2"
